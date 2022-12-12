@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+$myfont: Quicksand, Helvetica, sans-serif;
+
+* {
+  font: 100% $myfont;
+}
+
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  // font-family: Quicksand, Helvetica, sans-serif;
+  * {
+    font: 100% $myfont;
+  }
+} */
+
+:root {
+  --primary-color: #ffb300;
+  --secondary-color: #004fff;
+  --warn-color: #bb2649;
+  --txt-color: black;
+}
+
+/* a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+ */

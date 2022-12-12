@@ -1,0 +1,13 @@
+.center {
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  div {
+    margin: 2rem;
+    color: var(--secondary-color);
+  }
+}
