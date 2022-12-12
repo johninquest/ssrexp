@@ -1,7 +1,7 @@
 import * as React from "react";
 import Head from "next/head";
 import styles from "../styles/page/Home.module.scss";
-import Link from "next/link";
+/* import Link from "next/link"; */
 import Button from "@mui/material/Button";
 import Router from "next/router";
 
@@ -9,7 +9,7 @@ export default function Home() {
   let _currentYear = new Date().getFullYear();
   const router = Router;
 
-  const al = () => alert("I ma here!");
+  const al = () => alert("I am here!");
   return (
     <div className={styles.container}>
       <Head>
