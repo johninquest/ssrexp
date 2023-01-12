@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>contact your guidance counselor</div>
+        <div>welcome to our website</div>
         <div>
           <Button variant="contained" color="secondary" onClick={al}>
             make some noise
@@ -44,7 +44,7 @@ export default function Home() {
         <a href="https://johnapps.de" target="_blank" rel="noopener noreferrer">
           <span>&copy;</span>
           <span>&nbsp;</span>
-          <span>john apps</span>
+          <span style={{ textTransform: "uppercase" }}>john apps</span>
           <span>&nbsp;</span>
           <span>{_currentYear}</span>
         </a>

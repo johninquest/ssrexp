@@ -2,14 +2,15 @@ import { Button } from "@mui/material";
 import style from "../styles/page/Contact.module.scss";
 
 export default function Contact() {
-  // let _message = "Hello world!";
-  const _curYear = new Date().getFullYear();
+  let _currentYear = new Date().getFullYear();
+  let _message = `We made it to the year ${_currentYear} safe and sound 🎉`;
   return (
     <div className={style.center}>
-      <div> Hello world, its about to be {_curYear + 1} 🎉</div>
+      <div style={{ fontSize: "3rem", fontWeight: "bold" }}>Juhuuu!!!</div>
+      <div style={{ fontSize: "2rem" }}>{_message}</div>
 
       <Button
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center", marginTop: "3rem" }}
         variant="contained"
         onClick={() => history.back()}
       >
