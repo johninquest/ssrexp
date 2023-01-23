@@ -23,19 +23,26 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>welcome to our website</div>
-        <div>
+        <div>welcome to finbits</div>
+        {/*  <div>
           <Button variant="contained" color="secondary" onClick={al}>
             make some noise
           </Button>
-        </div>
-        <div>
+        </div> */}
+        <div className={styles.btns}>
           <Button
             variant="contained"
             color="primary"
             onClick={() => router.push("/contact")}
           >
             contact
+          </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={() => router.push("/markets")}
+          >
+            markets
           </Button>
         </div>
       </main>
